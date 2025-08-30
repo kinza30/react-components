@@ -1,0 +1,60 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: transform 0.05s ease, opacity 0.2s ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+/* sizes */
+.sm {
+  padding: 6px 10px;
+  font-size: 0.85rem;
+}
+.md {
+  padding: 10px 14px;
+  font-size: 1rem;
+}
+.lg {
+  padding: 14px 18px;
+  font-size: 1.1rem;
+}
+
+/* variants */
+.primary {
+  background: #2563eb;
+  color: #fff;
+}
+.primary:hover {
+  opacity: 0.95;
+}
+
+.outline {
+  background: transparent;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.outline:hover {
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.danger {
+  background: #dc2626;
+  color: #fff;
+}
+.danger:hover {
+  opacity: 0.95;
+}
+
+.btn[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

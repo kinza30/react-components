@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.card-outline {
+  border-color: #222; /* Dark outline jab active ho */
+}
+
+.header {
+  padding: 16px 18px 0 18px;
+}
+.title {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #111827;
+}
+.subtitle {
+  margin: 6px 0 0 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.body {
+  padding: 16px 18px;
+  color: #111827;
+}
+
+.footer {
+  padding: 12px 18px 16px 18px;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
